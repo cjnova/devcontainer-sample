@@ -1,5 +1,5 @@
 {
-    "name": "Devcontainer sample",
+    "name": "CMC Copilot devcontainer",
     "image": "mcr.microsoft.com/devcontainers/python:3.12",
     "features": {
         "ghcr.io/devcontainers/features/node:1": {
@@ -7,18 +7,24 @@
             "version": "18",
             "nodeGypDependencies": false
         },
-        "ghcr.io/devcontainers/features/azure-cli:1.2.5": {},
+        "ghcr.io/devcontainers/features/azure-cli:1.2.6": {},
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/azure/azure-dev/azd:latest": {}
+        "ghcr.io/devcontainers/features/powershell:1": {},
+        "ghcr.io/devcontainers/features/terraform:1": {
+            "version": "latest",
+            "tflint": "latest",
+            "terragrunt": "latest"
+          }
     },
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-azuretools.azure-dev",
-                "ms-azuretools.vscode-bicep",
+                "hashicorp.terraform",
+                "golang.Go",
                 "ms-python.python",
                 "esbenp.prettier-vscode",
-                "vscode-icons-team.vscode-icons"
+                "ms-vscode.powershell"
             ]
         }
     },
