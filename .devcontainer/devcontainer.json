@@ -10,18 +10,9 @@
         "ghcr.io/devcontainers/features/azure-cli:1.2.6": {},
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
         "ghcr.io/devcontainers/features/powershell:1": {},
-        "ghcr.io/devcontainers/features/terraform:1": {
-            "version": "latest",
-            "tflint": "latest",
-            "terragrunt": "latest"
-          }
-    },
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-azuretools.azure-dev",
-                "hashicorp.terraform",
-                "golang.Go",
                 "ms-python.python",
                 "esbenp.prettier-vscode",
                 "ms-vscode.powershell"
@@ -34,6 +25,6 @@
     "postCreateCommand": "",
     "remoteUser": "vscode",
     "hostRequirements": {
-        "memory": "6gb"
+        "memory": "4gb"
     }
 }
