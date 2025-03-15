@@ -19,11 +19,14 @@
                 "esbenp.prettier-vscode",
                 "Vue.volar",
                 "ms-toolsai.jupyter"
-            ]
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": ".venv/bin/python"
+            }
         }
     },
     "forwardPorts": [],
-    "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+    "postCreateCommand": "python3 -m venv .venv && . .venv/bin/activate",
     "remoteUser": "vscode",
     "hostRequirements": {
         "memory": "4gb"
