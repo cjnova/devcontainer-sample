@@ -17,7 +17,8 @@
                 "ms-azuretools.vscode-bicep",
                 "ms-python.python",
                 "esbenp.prettier-vscode",
-                "Vue.volar"
+                "Vue.volar",
+                "ms-toolsai.jupyter"
             ]
         }
     },
