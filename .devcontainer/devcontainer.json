@@ -23,7 +23,7 @@
         }
     },
     "forwardPorts": [],
-    "postCreateCommand": "",
+    "postCreateCommand": ". .venv/bin/activate",
     "remoteUser": "vscode",
     "hostRequirements": {
         "memory": "4gb"
