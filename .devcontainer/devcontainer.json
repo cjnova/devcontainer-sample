@@ -13,6 +13,10 @@
     },
     "customizations": {
         "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": ".venv/bin/python",
+                "python.terminal.activateEnvInCurrentTerminal": true
+            },
             "extensions": [
                 "ms-azuretools.vscode-bicep",
                 "ms-python.python",
