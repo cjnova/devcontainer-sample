@@ -19,10 +19,7 @@
                 "esbenp.prettier-vscode",
                 "Vue.volar",
                 "ms-toolsai.jupyter"
-            ],
-            "settings": {
-                "python.defaultInterpreterPath": ".venv/bin/python"
-            }
+            ]
         }
     },
     "forwardPorts": [],
